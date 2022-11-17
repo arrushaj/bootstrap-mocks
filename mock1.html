@@ -12,37 +12,54 @@
 </head>
 <body>
   <br>
-  <div>
-    <div>Successfully logged in.</div>
+  <div class="container">
+    <div class="alert alert-success">Successfully logged in.</div>
 
-    <div>
-      <h1>Welcome to our website!</h1>
-      <p>
-        Look at these buttons:
-      </p>
-      <a href="#">Go!</a>
-      <a href="#">Warning!</a>
-      <a href="#">Danger!</a>
+    <div class="row p-3 mb-2 bg-light text-dark">
+      <div class="d-flex col-12 justify-content-center">
+        <h1>Welcome to our website!</h1>
+      </div>
+      <div class="d-flex col-12 justify-content-center">
+        <p>
+          Look at these buttons:
+        </p>
+      </div>
+      <div class="d-flex col-12 justify-content-center">
+        <a class="btn btn-primary" href="#">Go!</a>
+        <a class="mx-1 btn btn-warning" href="#">Warning!</a>
+        <a class="btn btn-outline-danger" href="#">Danger!</a>
+      </div>
+
     </div>
-    <h3>
+    <h3 class="d-none d-sm-block">
       Let's look at some random pictures!
       <small>from https://picsum.photos/</small>
     </h3>
-    <div>
-      <div>
-        <img src="https://picsum.photos/300/230">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga repellat,
-        quo, qui illum voluptatibus esse corporis aut quia deserunt voluptatem.
-      </div>
-      <div>
-        <img src="https://picsum.photos/300/230">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga repellat,
-        quo, qui illum voluptatibus esse corporis aut quia deserunt voluptatem.
-      </div>
-      <div>
-        <img src="https://picsum.photos/300/230">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga repellat,
-        quo, qui illum voluptatibus esse corporis aut quia deserunt voluptatem.
+    <!-- <div class="container-fluid"> -->
+      <div class="row mx-2">
+        <div class="col-12 col-md-4">
+          <img class="row border border-3 img-fluid" src="https://picsum.photos/300/230">
+        <div class="row">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga repellat,
+          quo, qui illum voluptatibus esse corporis aut quia deserunt voluptatem.</div>
+
+        </div>
+        <div class="col-12 col-md-4">
+          <img class="row border border-3 img-fluid" src="https://picsum.photos/300/230">
+          <div class="row">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga repellat,
+            quo, qui illum voluptatibus esse corporis aut quia deserunt voluptatem.
+          </div>
+
+        </div>
+        <div class="col-12 col-md-4">
+          <img class="row border border-3 img-fluid" src="https://picsum.photos/300/230">
+          <div class="row">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga repellat,
+            quo, qui illum voluptatibus esse corporis aut quia deserunt voluptatem.
+          </div>
+        </div>
+
+
       </div>
     </div>
   </div>
